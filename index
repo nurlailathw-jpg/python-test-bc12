@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 650px;
+            padding: 0 10px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        /* You can now style all h2 elements using this class */
+        .section-title {
+            color: #2980b9;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Project Dashboard</h1>
+    <p>This page demonstrates how to use classes to organize your HTML elements.</p>
+    
+    <h2 class="section-title">Core Objectives</h2>
+    <p>Using classes allows you to apply the same style to multiple elements across your site.</p>
+
+    <h2 class="section-title">Technical Skills</h2>
+    <ul>
+        <li>Data Organization</li>
+        <li>Structural Tagging</li>
+        <li>Style Implementation</li>
+    </ul>
+
+    <h2 class="section-title">Future Updates</h2>
+    <p>Check back later for more interactive features and layout improvements.</p>
+
+    <hr>
+    <footer>
+        <p>Updated: April 2026</p>
+    </footer>
+
+</body>
+</html>
